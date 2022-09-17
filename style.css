@@ -29,6 +29,7 @@ article, p, footer > div {font-family: "Trirong", sans-serif;}
     display: flex;
     width: 100%;
     justify-content: center;
+    
 }
 
 .nav-container{
@@ -172,6 +173,10 @@ ul{
     padding-bottom: 10%;
     margin-bottom: 20px;
     text-shadow: .5px .5px #f9f5e1;
+}
+
+.section1-text4{
+    font-size: 1.1rem;
 }
 
     /* Section1 Image */
@@ -885,7 +890,7 @@ textarea{
 
 
 /* -----------------------------------------------------For Tablet-------------------------------------------------------------------- */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
 /* ----------Main Tablet------------- */
     .main-container{
         height: fit-content;
@@ -929,6 +934,10 @@ textarea{
         text-align: center;
     }
     .section1-text3 {font-size: 1.6rem;}
+
+    .section1-text4{
+        font-size: 1rem;
+    }
 
 
 
@@ -1010,9 +1019,9 @@ textarea{
 
 
 
-/* ----------1000px----------- */
+/* ----------1200px----------- */
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1200px){
 
 /* Navigation bar */
     .nav-link-text >a{
@@ -1033,6 +1042,7 @@ textarea{
     }
     .section1-text2 {font-size: 3rem;}
     .section1-text3 {font-size: 1.4rem;}
+    .section1-text4 {font-size: 0.95rem}
 
 /* Section2 */
     .section2-text1{
@@ -1236,7 +1246,7 @@ li{font-size: 14px; }
 
 
 /* ----------------------Limit Height--------------------------- */
-@media only screen and (max-height: 750px){
+@media only screen and (max-height: 1000px){
     .footer{
         height: fit-content;
     }
@@ -1290,7 +1300,7 @@ li{font-size: 14px; }
 
 /* -------------------------------------------------------------------------------For Mobile-------------------------------------------------------------------------------- */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
 
 /* Navigation Pane - mobile*/
 .nav-container{
